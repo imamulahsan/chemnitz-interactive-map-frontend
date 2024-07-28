@@ -1,0 +1,71 @@
+.container-fluid {
+    padding-left: 30px; /* Reduce padding as needed */
+    padding-right: 30px; /* Reduce padding as needed */
+  }
+  
+  .sidebar {
+    border-right: 1px solid #ddd;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  h2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .homecard {
+    background: rgba(65, 159, 36, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    color: #100f0f;
+  }
+  
+  .homecard i {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .homecard p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .btn-group-vertical .btn {
+    width: 90%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  background-color: #2471A3; /* Custom button color */
+  border-color: #e6dedc; /* Custom border color */
+  }
+
+  .btn-group-vertical .btn:hover {
+    background-color: #F9E79F; /* Hover background color */
+    border-color: #ffffff; /* Hover border color */
+    color: black;
+  }
+
+
+
+  .map {
+    height: 500px; /* Adjust height as needed */
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-3 {
+      max-width: 25%; /* Adjust the width as needed */
+    }
+    
+    .col-md-9 {
+      max-width: 75%; /* Adjust the width as needed */
+    }
+  }
+  

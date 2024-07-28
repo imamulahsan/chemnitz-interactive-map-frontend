@@ -1,0 +1,29 @@
+.footer {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding: 20px 0;
+    background-color: #2471A3;
+  }
+  
+  .footer h5 {
+    margin-bottom: 20px;
+  }
+  
+  .footer p, .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .fab {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .footer .fab:hover {
+    color: #F9E79F;
+  }
